@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #A9B388;
+  }
+
+  form {
+    margin-top: 20px;
+    width: 500px; 
+    padding: 20px;
+    border: 1px solid #929191;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .contactContainer {
+    padding-top: 18rem;
+    padding-bottom: 8rem;
+    margin-top: 10px;
+}
+
+@media (max-width: 991px) {
+  .contactContainer {
+     padding-top: 20rem;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .contactContainer {
+    margin-top: 160px;
+  }
+
+  form {
+    width: 400px;
+  }
+}
+
